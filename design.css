@@ -1,0 +1,267 @@
+#design-body {
+  background-color: #f5eddc;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#first-section {
+  text-align: center;
+  background-color: #647e68;
+  opacity: 0.8;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+#gallery-section {
+  text-align: center;
+}
+
+#design-header {
+  display: inline-block;
+  margin-top: 10%;
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 15%;
+  background-color: #647e68;
+  opacity: 0.8;
+  position: relative;
+}
+
+#design-btn-paragraph {
+  margin: 7% 15%;
+}
+
+h1 {
+  font-family: "Rubik Dirt", cursive;
+  color: #603601;
+  font-size: 60px;
+  padding: 3%;
+}
+
+.pimentel-logo {
+  width: 210px;
+  position: relative;
+  right: 90px;
+}
+
+.free-quote-nav {
+  width: 300px;
+}
+
+.our-story-link {
+  width: 150px;
+}
+
+.navbar {
+  padding: 1% 10%;
+  margin-right: 60px;
+}
+
+.nav-link {
+  color: #f5eddc;
+  font-size: larger;
+  font-family: "Rubik Dirt", cursive;
+  border: 5px solid #603601;
+  background-color: #603601;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.nav-link:hover {
+  border: 4px solid #603601;
+  border-radius: 10px;
+  color: #647e68;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.dropdown-menu {
+  background-color: #f5eddc;
+}
+
+.dropdown-item {
+  color: #603601;
+  stroke: black;
+  font-family: "Rubik Dirt", cursive;
+  font-size: 20px;
+}
+
+.dropdown-item:hover {
+  background-color: #f5eddc;
+  color: #647e68;
+}
+.navbar-nav {
+  margin: 0 20%;
+}
+
+.free-quote-link {
+  color: #f5eddc;
+  width: 300px;
+}
+
+.free-quote-link:hover {
+  background-color: #647e68;
+  color: #f5eddc;
+  border-color: #647e68;
+}
+
+.free-quote-color:hover {
+  border-color: #f5eddc;
+  background-color: #f5eddc;
+  color: #647e68;
+}
+
+.hardscape-nav {
+  background-color: #647e68;
+}
+
+.hardscape-dropdown:hover {
+  color: #f5eddc;
+  border-color: #603601;
+}
+
+.hardscaping-link:hover {
+  color: #f5eddc;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(245,237,220, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(96, 54, 1);
+  border-width: 5px;
+  /* opacity: 0.9; */
+}
+.design-header-class {
+  margin-top: 10%;
+}
+
+.design-video {
+  width: 50%;
+}
+
+.design-paragraph {
+  font-size: 30px;
+  color: #647e68;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.btn {
+  margin-top: 10%;
+  border-color: #603601;
+  background-color: #603601;
+  font-family: "Oswald", sans-serif;
+  width: 350px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #603601;
+}
+
+.footer-logo {
+  opacity: 0.5;
+  position: relative;
+  right: 270px;
+}
+
+.end-copyright {
+  margin-top: 15px;
+  position: relative;
+  right: 27%;
+}
+
+.phone-number {
+  font-weight: bold;
+  color: white;
+  font-family: "Francois One", sans-serif;
+}
+
+.copy-right {
+  color: white;
+  font-size: 13px;
+}
+
+@media (max-width: 992px) {
+  .pimentel-logo {
+    width: 100%;
+    position: relative;
+    left: 0.5%;
+    margin: auto;
+  }
+
+  #design-header {
+    margin-top: 25%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .navbar {
+    padding: 1% 5%;
+    margin-right: 0;
+  }
+
+  .navbar-brand {
+    width: 30%;
+  }
+
+  .dropdown-menu {
+    width: 160%;
+  }
+
+  .dropdown-item {
+    font-size: 12px;
+    font-weight: bold;
+    transition: transform 1s;
+  }
+
+  .our-story-link {
+    width: 100%;
+  }
+
+  .free-quote-link {
+    width: 100%;
+  }
+
+  .free-quote-nav {
+    width: 100%;
+  }
+
+  .design-video {
+    margin-top: 8%;
+    width: 80%;
+  }
+
+  .design-paragraph {
+    font-size: 20px;
+  }
+
+  .btn {
+    width: 60%;
+  }
+
+  .end-copyright {
+    position: relative;
+    left: 0.1%;
+  }
+
+  .footer-logo {
+    position: relative;
+    left: 0.1%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+    opacity: 0.5;
+  }
+}
